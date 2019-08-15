@@ -1,7 +1,7 @@
 {
   "name": "html-minifier-webpack-plugin",
   "description": "A Webpack plugin to minimize HTML with HTML minifier.",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "author": "Guillaume Chauveau <guillaumejchauveau.ops.gecu@outlook.com>",
   "contributors": [
     "Emil Ajdyna <emil@ajdyna.com>"
@@ -13,13 +13,15 @@
     "optimize",
     "webpack"
   ],
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
     "test": "ava test/*.js"
   },
-  "main": "index.js",
   "dependencies": {
     "html-minifier": "^4.0.0",
-    "webpack-sources": "^1.4.3"
+    "webpack-sources": "^1.4.3",
+    "@types/webpack": "^4.32.1"
   },
   "devDependencies": {
     "ava": "^2.2.0",
