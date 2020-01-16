@@ -1,7 +1,7 @@
 {
   "name": "html-minifier-webpack-plugin",
   "description": "A Webpack plugin to minimize HTML with HTML minifier.",
-  "version": "2.2.2",
+  "version": "2.2.3",
   "author": "Guillaume Chauveau <guillaumejchauveau.ops.gecu@outlook.com>",
   "contributors": [
     "Emil Ajdyna <emil@ajdyna.com>"
